@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-hello-world",
+  "version": "1.0.0",
+  "description": "basic next js app for dev-test only",
+  "main": "server.js",
+  "scripts": {
+    "start": "next start -p 8000",
+    "build": "next build",
+    "export": "next export",
+    "dev": "nodemon server.js",
+    "clean": "rm -r node_modules .next out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "next": "^4.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-markdown": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "serve": "^6.5.8"
+  }
+}
